@@ -1,0 +1,20 @@
+.promo-item {
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  -webkit-transition: all linear 0.2s 0s;
+  -moz-transition: all linear 0.2s 0s;
+  -o-transition: all linear 0.2s 0s;
+  transition: all linear 0.2s 0s;
+}
+
+.promo-item:hover {
+  -webkit-transform: translate3d(0, -5px, 0);
+  -moz-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  // -webkit-box-shadow: 0px 0 100px rgba(0, 0, 0, 0.125);
+  // -moz-box-shadow: 0px 0 100px rgba(0, 0, 0, 0.125);
+  // box-shadow: 0px 0 100px rgba(0, 0, 0, 0.125);
+}

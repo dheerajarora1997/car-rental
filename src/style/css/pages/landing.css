@@ -1,0 +1,11 @@
+@media only screen and (min-width: 767px) {
+  .responsible-fold .responsible-img {
+    margin-right: -80px; } }
+
+.promos-fold {
+  min-height: 350px; }
+  .promos-fold .promo-link {
+    display: inline-block;
+    min-height: 190px; }
+    .promos-fold .promo-link .promo-heading {
+      bottom: 0; }
