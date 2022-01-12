@@ -1,0 +1,47 @@
+.ribbon {
+    position: absolute;
+    padding: 0 10px;
+    color: #fff;
+    right: 0;
+    background: $brand;
+    min-height: 22px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        border-width: 11px 0 11px 10px;
+        border-style: solid;
+        border-color: $brand $brand $brand transparent;
+        left: -10px;
+    }
+}
+
+.source {
+    position:absolute;
+    left: 0;
+    top: 0;
+    padding: 3px 3px;
+    background: $brand;
+    border-radius: 0 0 40px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    &.facebook{
+        background: $facebook;
+        color: $white;
+    }
+    &.g-ads{
+        background: $google;
+        color: $white;
+
+    }
+    &.twitter{
+        background: $twitter;
+        color: $white;
+
+    }
+}
