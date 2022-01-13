@@ -36,15 +36,19 @@
                           <label for="start-date">Start at</label>
                         </div>
                         <div class="col-sm-9">
-                          <input class="form-control" type="date" name="" id="start-date">
+                          <div class="form-group">
+                            <input class="form-control bg-light" type="date" name="" id="start-date">
+                          </div>
                         </div>
                         <div class="col-sm-3">
                           <label for="end-date">Finish</label>
                         </div>
                         <div class="col-sm-9">
-                          <input class="form-control" type="date" name="" id="end-date">
+                          <div class="form-group">
+                            <input class="form-control bg-light" type="date" name="" id="end-date">
+                          </div>
                         </div>
-                        <div class="col-12 d-flex justify-content-end align-items-center pt-3">
+                        <div class="col-12 d-flex justify-content-end align-items-center">
                           <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="customCheck1">
                             <label class="custom-control-label" for="customCheck1">Age 25 to 75</label>
@@ -112,9 +116,9 @@
     <section class="bg-light position-relative">
       <div class="promos-fold py-5">
         <div class="container">
-          <h3 class="h3 for-weight-bold mb-4">Our Rent a Car Promotions</h3>
+          <h3 class="h3 font-weight-bold mb-4">Our Rent a Car Promotions</h3>
           <div class="row">
-            <div class="col-4">
+            <div class="col-sm-4">
               <div class="d-block shadow rounded promo-item">
                 <a href="#" class="position-relative d-inline-block w-100 promo-link">
                   <img src="./img/promo-1.jpeg" alt="promos" class="position-absolute img-fluid promor-img">
@@ -123,7 +127,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <div class="d-block shadow rounded promo-item">
                 <a href="#" class="position-relative d-inline-block w-100 promo-link">
                   <img src="./img/promo-2.jpeg" alt="promos" class="position-absolute img-fluid promor-img">
@@ -132,7 +136,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <div class="d-block shadow rounded promo-item">
                 <a href="#" class="position-relative d-inline-block w-100 promo-link">
                   <img src="./img/promo-3.jpeg" alt="promos" class="position-absolute img-fluid promor-img">
@@ -189,54 +193,477 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="footer-elements bg-dark py-5">
+    <section class="bg-light">
+      <div class="feature-fold py-5">
         <div class="container">
+          <h3 class="h3 font-weight-bold mb-5">Our Special Car Rental Rates</h3>
           <div class="row">
-            <div class="col-md-3 col-sm-6">
-              <div class="d-flex align-items-start">
-                <i class="fa fa-circle-o-notch fa-2x bg-primary rounded text-white p-3 mr-3" aria-hidden="true"></i>
-                <div class="d-inline-block">
-                  <h6 class="font-weight-bold m-0 text-white">For Accounts & Billing</h6>
-                  <a class=" text-white" href="tel:+919999999999">+91 999 999 9999</a>
-                  <a class=" text-white" href="mailto:billing@domain.com">billing@domain.com</a>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="d-flex flex-column bg-white w-100 position-relative shadow rounded overflow-hidden promo-item">
+                <div class="ribbon sale-ribbon">HOT SALE</div>
+                <div class="ribbon feature-ribbon">FEATURED</div>
+                <div class="feature-img pt-5 pb-3">
+                  <img src="./img/car-1.png" alt="car" class="img-fluid">
+                </div>
+                <div class="feature-content d-flex justify-content-around border-top border-bottom">
+                  <div class="d-inline-block p-2 border-right position-relative old-data">
+                    <p class="m-0"><strong>20000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>10000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>3000 IND</strong> / Daily</p>
+                  </div>
+                  <div class="d-inline-block p-2">
+                    <p class="m-0"><strong>18000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>9000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>2500 IND</strong> / Daily</p>
+                  </div>
+                </div>
+                <div class="feature-requirments">
+                  <ul class="list-style-none p-3 mb-0">
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Minimum Documents Required</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Drop off Anywhere in Dubai</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Service & Maintenance Free</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 24/7 Roadside Assistance</li>
+                  </ul>
+                  <div class="d-flex px-3 pb-3 justify-content-between">
+                    <a href="javascript:void(0)" class="btn btn-success px-4">View Details</a>
+                    <a href="javascript:void(0)" class="btn btn-primary px-4">Send Enquiry</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="d-flex align-items-start">
-                <i class="fa fa-circle-o-notch fa-2x bg-primary rounded text-white p-3 mr-3" aria-hidden="true"></i>
-                <div class="d-inline-block">
-                  <h6 class="font-weight-bold mb-0 text-white">Address</h6>
-                  <p class="m-0 text-white">Speedy Drive Car Rental, Retail 04, Maison De Ville Breeze Hotel, Business Bay, Dubai, United Arab Emirates.</p>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="d-flex flex-column bg-white w-100 position-relative shadow rounded overflow-hidden promo-item">
+                <div class="ribbon feature-ribbon">FEATURED</div>
+                <div class="feature-img pt-5 pb-3">
+                  <img src="./img/car-2.jpeg" alt="car" class="img-fluid">
+                </div>
+                <div class="feature-content d-flex justify-content-around border-top border-bottom">
+                  <div class="d-inline-block p-2 border-right position-relative old-data">
+                    <p class="m-0"><strong>20000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>10000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>3000 IND</strong> / Daily</p>
+                  </div>
+                  <div class="d-inline-block p-2">
+                    <p class="m-0"><strong>18000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>9000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>2500 IND</strong> / Daily</p>
+                  </div>
+                </div>
+                <div class="feature-requirments">
+                  <ul class="list-style-none p-3 mb-0">
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Minimum Documents Required</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Drop off Anywhere in Dubai</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Service & Maintenance Free</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 24/7 Roadside Assistance</li>
+                  </ul>
+                  <div class="d-flex px-3 pb-3 justify-content-between">
+                    <a href="javascript:void(0)" class="btn btn-success px-4">View Details</a>
+                    <a href="javascript:void(0)" class="btn btn-primary px-4">Send Enquiry</a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="d-flex align-items-start">
-                <i class="fa fa-circle-o-notch fa-2x bg-primary rounded text-white p-3 mr-3" aria-hidden="true"></i>
-                <div class="d-inline-block">
-                  <h6 class="font-weight-bold m-0 text-white">Emergency Contact</h6>
-                  <a class=" text-white" href="tel:+919999999999">+91 999 999 9999</a>
-                  <a class=" text-white" href="tel:+919999999999">+91 999 999 9999</a>
+            <div class="col-sm-6 col-md-4">
+              <div
+                class="d-flex flex-column bg-white w-100 position-relative shadow rounded overflow-hidden promo-item">
+                <div class="ribbon sale-ribbon">HOT SALE</div>
+                <div class="ribbon feature-ribbon">FEATURED</div>
+                <div class="feature-img pt-5 pb-3">
+                  <img src="./img/car-3.jpeg" alt="car" class="img-fluid">
                 </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <div class="d-flex align-items-start">
-                <i class="fa fa-circle-o-notch fa-2x bg-primary rounded text-white p-3 mr-3" aria-hidden="true"></i>
-                <div class="d-inline-block">
-                  <h6 class="font-weight-bold m-0 text-white">Emergency Contact</h6>
-                  <a class=" text-white" href="tel:+919999999999">+91 999 999 9999</a>
-                  <a class=" text-white" href="tel:+919999999999">+91 999 999 9999</a>
-                  <a class=" text-white" href="mailto:billing@domain.com">drive@domain.com</a>
+                <div class="feature-content d-flex justify-content-around border-top border-bottom">
+                  <div class="d-inline-block p-2 border-right position-relative old-data">
+                    <p class="m-0"><strong>20000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>10000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>3000 IND</strong> / Daily</p>
+                  </div>
+                  <div class="d-inline-block p-2">
+                    <p class="m-0"><strong>18000 IND</strong> / Monthly</p>
+                    <p class="m-0"><strong>9000 IND</strong> / Weekly</p>
+                    <p class="m-0"><strong>2500 IND</strong> / Daily</p>
+                  </div>
+                </div>
+                <div class="feature-requirments">
+                  <ul class="list-style-none p-3 mb-0">
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Minimum Documents Required</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Drop off Anywhere in Dubai</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Service & Maintenance Free</li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 24/7 Roadside Assistance</li>
+                  </ul>
+                  <div class="d-flex px-3 pb-3 justify-content-between">
+                    <a href="javascript:void(0)" class="btn btn-success px-4">View Details</a>
+                    <a href="javascript:void(0)" class="btn btn-primary px-4">Send Enquiry</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section class="bg-dark">
+      <div class="booking-fold py-5">
+        <div class="container">
+          <h2 class="h3 font-weight-bold text-white mb-5">Book Your Car Rental Now</h2>
+          <div class="row align-items-center">
+            <div class="col-sm-6 col-md-3">
+              <div class="d-flex flex-column text-sm-center">
+                <i
+                  class="fa fa-circle-o-notch d-inline-block mx-auto p-3 rounded-circle fa-3x bg-light text-primary"></i>
+                <hr class="arrow-right border-white mt-4">
+                <h4 class="h6 font-weight-bold text-white">Select Your Favorite Car</h4>
+                <p class="text-white text-small">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                  has roots in
+                  a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="d-flex flex-column text-sm-center">
+                <i
+                  class="fa fa-circle-o-notch d-inline-block mx-auto p-3 rounded-circle fa-3x bg-light text-primary"></i>
+                <hr class="arrow-right border-white mt-4">
+                <h4 class="h6 font-weight-bold text-white">Paying Options</h4>
+                <p class="text-white text-small">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                  has roots in
+                  a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="d-flex flex-column text-sm-center">
+                <i
+                  class="fa fa-circle-o-notch d-inline-block mx-auto p-3 rounded-circle fa-3x bg-light text-primary"></i>
+                <hr class="arrow-right border-white mt-4">
+                <h4 class="h6 font-weight-bold text-white">Car Delivery and Car Pick Up</h4>
+                <p class="text-white text-small">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                  has roots in
+                  a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="d-block bg-light rounded py-2">
+                <form action="">
+                  <div class="d-flex flex-column">
+                    <div class="car-selection border-bottom p-3 d-flex justify-content-around">
+                      <button class="btn bg-white">Economy</button>
+                      <button class="btn bg-white">Luxury</button>
+                      <button class="btn bg-white">SUV</button>
+                    </div>
+                    <div class="date-selection p-3">
+                      <div class="row align-items-center">
+                        <div class="col-sm-3">
+                          <label for="start-date">Start at</label>
+                        </div>
+                        <div class="col-sm-9">
+                          <div class="form-group">
+                            <input class="form-control bg-light" type="date" name="" id="start-date">
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <label for="end-date">Finish</label>
+                        </div>
+                        <div class="col-sm-9">
+                          <div class="form-group">
+                            <input class="form-control bg-light" type="date" name="" id="end-date">
+                          </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-end align-items-center">
+                          <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Age 25 to 75</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary ml-3">Search</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flexible-pricing">
+      <div class="bg-danger py-5">
+        <div class="container">
+          <h3 class="h3 font-weight-bold mb-5 text-center text-white">Our Flexible Car Rental Plans</h3>
+        </div>
+      </div>
+      <div class="bg-white py-5">
+        <div class="container">
+          <div class="row" style="margin-top: -100px;">
+            <div class="col-md-4">
+              <div class="bg-white rounded shadow p-3 promo-item border-bottom border-primary">
+                <div class="row">
+                  <div class="col-9">
+                    <h3 class="h5 mb-0">Short Term</h3>
+                    <small class="text-primary">Car Rental</small>
+                  </div>
+                  <div class="col-3 text-right">
+                    <i class="fa fa-repeat fa-lg bg-light-primary text-primary p-3 rounded-circle"
+                      aria-hidden="true"></i>
+                  </div>
+                  <div class="col-12">
+                    <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                      have suffered alteration in some form, by injected humour, or randomised words which don't look
+                      even slightly believable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bg-white rounded shadow p-3 promo-item border-bottom border-warning">
+                <div class="row">
+                  <div class="col-9">
+                    <h3 class="h5 mb-0">Monthly</h3>
+                    <small class="text-warning">Car Rental</small>
+                  </div>
+                  <div class="col-3 text-right">
+                    <i class="fa fa-clock-o fa-lg bg-light-warning text-warning p-3 rounded-circle"
+                      aria-hidden="true"></i>
+                  </div>
+                  <div class="col-12">
+                    <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                      have suffered alteration in some form, by injected humour, or randomised words which don't look
+                      even slightly believable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="bg-white rounded shadow p-3 promo-item border-bottom border-success">
+                <div class="row">
+                  <div class="col-9">
+                    <h3 class="h5 mb-0">Long Term</h3>
+                    <small class="text-success">Car Rental</small>
+                  </div>
+                  <div class="col-3 text-right">
+                    <i class="fa fa-calendar fa-lg bg-light-success text-success p-3 rounded-circle"
+                      aria-hidden="true"></i>
+                  </div>
+                  <div class="col-12">
+                    <p class="mt-4">There are many variations of passages of Lorem Ipsum available, but the majority
+                      have suffered alteration in some form, by injected humour, or randomised words which don't look
+                      even slightly believable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="doc-list-fold">
+        <div class="container">
+          <h2 class="h3 font-weight-normal text-sm-center">Document Required to Hire a Car</h2>
+          <p class=" text-sm-center">The following documents are required for booking or making reservation for the car
+            rental services for people residing</p>
+          <div class="row no-gutters my-5">
+            <div class="col-sm-6">
+              <div class="p-3">
+                <div class="row">
+                  <div class="col-5 d-none d-sm-flex">
+                    <picture>
+                      <img src="./img/img-rent-dubai.png" alt="dubai rent" class="img-fluid">
+                    </picture>
+                  </div>
+                  <div class="col-sm-7">
+                    <h3 class="h6 font-weight-bold">For UAE Residents</h3>
+                    <ul class="list-style-none">
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Passport copy</li>
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Valid International driving license</li>
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Copy of Visa/Visa Stamp</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr class="border-primary d-sm-none" />
+            </div>
+            <div class="col-sm-6">
+              <div class="p-3">
+                <div class="row">
+                  <div class="col-5 d-none d-sm-block">
+                    <picture>
+                      <img src="./img/img-rent-tourist.png" alt="dubai rent" class="img-fluid">
+                    </picture>
+                  </div>
+                  <div class="col-sm-7">
+                    <h3 class="h6 font-weight-bold">For Tourist</h3>
+                    <ul class="list-style-none">
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Passport copy</li>
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Valid UAE driving license</li>
+                      <li> <i class="fa fa-circle-o text-primary mr-3"></i>Copy of Emirates ID</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="bg-light text-center">
+        <p class="py-3 m-0 font-weight-bold">Visitors from European / GCC Countries can drive on their home country
+          driving license (when
+          on Visit Visa)</p>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="testimonial-fold">
+        <div class="container">
+          <h2 class="h3 font-weight-bold my-3 text-sm-center mt-0 mb-5">Customer Testimonials</h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="shadow d-inline-block w-100 p-3 rounded mb-4">
+                <div class="row no-gutters">
+                  <div class="col text-center"> <i class="fa fa-quote-left fa-lg text-dark" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>A special thank you to the team at Speedy Drive for a friendly, helpful, and efficient car rental
+                      experience. I will be returning again for future rentals.</p>
+                    <h5 class="h6 font-weight-bold text-right mb-0">Shaw Mathews</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="shadow d-inline-block w-100 p-3 rounded mb-4">
+                <div class="row no-gutters">
+                  <div class="col text-center"> <i class="fa fa-quote-left fa-lg text-dark" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>A special thank you to the team at Speedy Drive for a friendly, helpful, and efficient car rental
+                      experience. I will be returning again for future rentals.</p>
+                    <h5 class="h6 font-weight-bold text-right mb-0">Shaw Mathews</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="shadow d-inline-block w-100 p-3 rounded mb-4">
+                <div class="row no-gutters">
+                  <div class="col text-center"> <i class="fa fa-quote-left fa-lg text-dark" aria-hidden="true"></i>
+                  </div>
+                  <div class="col-10">
+                    <p>A special thank you to the team at Speedy Drive for a friendly, helpful, and efficient car rental
+                      experience. I will be returning again for future rentals.</p>
+                    <h5 class="h6 font-weight-bold text-right mb-0">Shaw Mathews</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="border-top">
+      <div class="faq-fold py-5">
+        <div class="container">
+          <h2 class="h3 font-weight-bold mb-4">Car Rental – FAQs</h2>
+          <div class="row justify-content-center">
+            <div class="col-sm-11">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What are the basic requirements to hire a car?
+                      </button>
+                    </h2>
+                  </div>
 
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body"> Apart from the documents listed above, all renters must be over the age of
+                      22 and must own a driver’s license that is at least 6 months old.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What is the minimum rental period?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Whether you are looking for a luxury or budget car rental in Dubai, the minimum rental period for
+                      all our vehicles is 24 hours. We also provide customized rent a car plans to cater to those
+                      customers that seek a long-term solution.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Should I pay the Salik Charges?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      Salik is Dubai’s own toll collection system that automatically deducts a fee when a vehicle passes
+                      through the toll gate. Each of our vehicles here at Speedy Drive Car Rental is equipped with Salik
+                      tags, and all customers shall be charged AED 5/- each time they move through a toll gate.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light">
+      <div class="blog-fold py-5">
+        <div class="container">
+          <h2 class="h3 font-weight-bold mb-4">Our Blog</h2>
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="#" class="d-inline-block text-decoration-none mb-4">
+                <picture>
+                  <img src="./img/blog-1.jpeg" alt="blog" class="rounded img-fluid">
+                </picture>
+                <hr class="border-primary col-2" />
+                <h4 class="h5 font-weight-normal mt-3 text-dark">Tips for Safe Driving While Pregnant</h4>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="#" class="d-inline-block text-decoration-none mb-4">
+                <picture>
+                  <img src="./img/blog-2.jpeg" alt="blog" class="rounded img-fluid">
+                </picture>
+                <hr class="border-primary col-2" />
+                <h4 class="h5 font-weight-normal mt-3 text-dark">Tips for Safe Driving While Pregnant</h4>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a href="#" class="d-inline-block text-decoration-none mb-4">
+                <picture>
+                  <img src="./img/blog-3.jpeg" alt="blog" class="rounded img-fluid">
+                </picture>
+                <hr class="border-primary col-2" />
+                <h4 class="h5 font-weight-normal mt-3 text-dark">Tips for Safe Driving While Pregnant</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+
+      <!-- Top nav and nav bar will be render from theme.js -->
     </footer>
   </main>
   <script src="./src/js/vendor/jquery/dist/jquery.min.js"></script>
